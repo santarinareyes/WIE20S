@@ -4,50 +4,114 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Richard Santarina Reyes</title>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 	<link href="styles.css" rel="stylesheet">
+	
 </head>
 <body>
 	<!-- header -->
 	<header>
-		<figure>
-			<img alt="omslagsbild" class="header-bild" src="bilder/lumaban.png">
-		</figure>
-	</header><!-- menu -->
-	<nav class="menu">
-		<ul>
-			<li class="nav-li"> <a href="Index.html"><strong>Startsidan</strong></a> </li>
-			<li class="nav-li"> <a href="blogg.html"><strong>Blogg</strong></a> </li>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav">
+				<a class="nav-link active" href="index.html">Startsidan<span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="blogg.html">Blogg</a>
+				<a class="nav-link" href="#contact">Contact</a>
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			  </div>
+			</div>
+		  </nav>		
+	</header>
+	
+	<!-- menu -->
+	
+	<!-- Startsidan -->
+	<main>
+	
+		<section class="flex-card-container">
+	<article class="blog-article">
+	<h1>Header1 - 1</h1>
+	<h2>Header2</h2><br>
+	<br>
+	<p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque perspiciatis, eligendi nam nobis magni!</p>
+	<span>Testar bara</span> <span>datum</span>
 
-		</ul>
-	</nav><!-- Startsidan -->
-	<figure class="first-page">
-		<img alt="richards bild" class="richard" src="bilder/richard.jpg">
+	<figure>
+		<img class="card-img1" src="bilder/richard.jpg" alt="">
+		<figcaption>Figcaption</figcaption>
 	</figure>
-	<h1>Bloggsidan</h1>
-	<h2>Richard Santarina Reyes</h2><br>
-	<br>
-	<h3>Intressen:</h3>
-	<ul>
-		<li>Lära mig nya färdigheter</li>
-		<li>Jag älskar att gymma, men det har inte varit mycket av det på grund av covid.</li>
-	</ul><br>
-	<br>
-	<h3>Favoritfrukter:</h3>
-	<ol>
-		<li class="frukter">
-			<a href="https://calories-info.com/site/assets/files/1173/mango.650x0.jpg">Mango</a>
-		</li>
-		<li class="frukter">
-			<a href="https://mittkok.expressen.se/wp-content/uploads/2014/07/Vattenmelon-1-636x358.jpg">Vattenmelon</a>
-		</li>
-		<li class="frukter">
-			<a href="https://static.mathem.se/shared/images/products/large/vindruvor-mix-rodgron-klass1-2.jpg">Vindruvor</a>
-		</li>
-	</ol><br>
-	<p>Det var lite korfattat om mig. Detta var stress på hög nivå på grund av dålig planering! :)</p><!-- Footer -->
+	<button type="button" class="btn btn-secondary" ><i class="fab fa-amazon-pay"></i>Button</button>
+
+</article>
+
+	<article class="blog-article">
+		<h1>Header1 - 2</h1>
+		<h2>Header2</h2><br>
+		<br>
+		<p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque perspiciatis, eligendi nam nobis magni!</p>
+		<span>Testar bara</span> <span>datum</span>
+
+	<figure>
+		<img class="card-img1" src="bilder/richard.jpg" alt="">
+		<figcaption>Figcaption</figcaption>
+	</figure>
+	<button type="button" class="btn btn-secondary"><i class="fab fa-amazon-pay"></i>Button</button>
+
+</article>
+
+	<article class="blog-article">
+		<h1>Header1 - 3</h1>
+		<h2>Header2</h2><br>
+		<br>
+		<p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque perspiciatis, eligendi nam nobis magni!</p>
+		<span>Testar bara</span> <span>datum</span>
+
+	<figure>
+		<img class="card-img1" src="bilder/richard.jpg" alt="">
+		<figcaption>Figcaption</figcaption>
+	</figure>
+	<button type="button" class="btn btn-secondary"><i class="fab fa-amazon-pay"></i>Button</button>
+</article>
+</section>
+
+
+	</main>
+
+
+
+	<!-- Footer -->
 	<footer>
-		<p class="footer-text">En Footer här bara för att</p>
-		<p class="copy">&copy; <strong>Richard</strong> | Grupp 6</p>
-	</footer>
-</body>
-</html>
+		<form id="contact">
+			<p class="footer-text">Write your E-mailadress below:</p>
+			<input type="email" name="" id="">
+			<input type="submit" value="Send">
+	
+			<select name="" id="">
+				<option value="Frontend">Frontend</option>
+				<option value="Database">Database</option>
+				<option value="Backend">Backend</option>
+			</select>
+	
+		</form>
+	
+		</footer>
+	
+		<div class="div-copy">
+			<span class="text-copy"> &copy; <strong>Richard</strong> | Grupp 6</span>
+			</div>
+	
+	
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	
+	
+	
+	</body>
+	</html>
