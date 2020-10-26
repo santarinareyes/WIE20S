@@ -1,76 +1,16 @@
-/* starselector reset */
+$base-color: #c6538c;
 
-* {
-	margin: 0;
-	padding: 0;
-	color: black;
-	box-sizing: border-box;
-	text-align: center;
-}
-/* start of body */
+/* starselector reset */
+@import "./global.scss";
 
 /* header */
+@import "./header.scss";
 
-header {
-	background-color: lightblue;
-}
-.header-bild {
-	width: 100%;
-	height: 700px;
-}
-nav.menu {
-	background: lightblue;
-	padding: 20px;
-	text-align: center;
-}
-.nav-li {
-	display: inline;
-	position: relative;
-}
-.nav-li:hover {
-	background-color: plum;
-	padding: 19px;
-	border: 2px solid darkslategrey;
-}
-/* links */
-
-a {
-	text-decoration: none;
-}
-a:hover {
-	color: lightgrey;
-}
-a:active {
-	color: lightgrey;
-}
 /* first page */
+@import "./firstpage.scss";
 
-.richard {
-	max-width: 20%;
-	height: auto;
-}
-.first-page {
-	align-items: center;
-}
+/* blogg-sidan */
+@import "./blogg-sidan.scss";
+
 /* footer */
-
-footer {
-	background: grey;
-}
-.footer-text {
-	padding-top: 10px;
-}
-.frukter {
-	padding-left: 30px;
-}
-.copy {
-	background: lightgrey;
-	padding: 5px;
-	margin-top: 50px;
-}
-/* padding-left */
-
-/* p, span, h1, h2, h3, h4, h5, .copy {
-    padding-left: 50px;
-
-} */
+@import "./footer.scss";

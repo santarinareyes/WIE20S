@@ -1,0 +1,40 @@
+/* first page */
+
+main {
+	border: 0.1rem solid black;
+
+}
+
+.richard {
+	max-width: 20%;
+	height: auto;
+}
+.first-page {
+	align-items: center;
+}
+
+section.main {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-around;
+}
+
+.article {
+	height: 10rem;
+	width: 10rem;
+	
+}
+
+#article1 {
+	background: indianred;
+}
+
+#article2 {
+	background: blue;
+}
+#article3 {
+	background:plum;
+}
+#article4 {
+	background: $base-color;
+}

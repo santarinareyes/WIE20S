@@ -1,0 +1,30 @@
+/* footer */
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+	background: $base-color;
+	padding-left: .3rem;
+	padding-right: .3rem;
+	padding-bottom: 1rem;
+	flex-wrap: wrap;
+}
+
+.footer>section {
+	padding-bottom: 1rem;
+}
+
+.footer-li {
+	display: inline-flex;
+}
+
+div.address, .social {
+	text-align: left;
+
+}
+
+.div-copy {
+	padding-top: 0.1rem;
+	background: lightgrey;
+}
